@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /b c:UsersbreezingOneDrive01_My_product_AppSummarizer_journal)",
+      "Bash(findstr:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

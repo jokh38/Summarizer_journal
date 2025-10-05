@@ -1,0 +1,14 @@
+Medical Dosimetry
+http://www.meddos.org/current.rss
+Physica Medica
+http://www.physicamedica.com/current.rss
+Journal of Applied Clinical Medical Physics
+https://aapm.onlinelibrary.wiley.com/feed/15269914/most-recent
+Medical Physics
+https://aapm.onlinelibrary.wiley.com/feed/24734209/most-recent
+Physics in Medicine and Biology
+https://iopscience.iop.org/journal/rss/0031-9155
+International Journal of Radiation Oncology, Biology, Physics
+https://www.redjournal.org/current.rss
+Radiation Oncology
+http://www.ro-journal.com/latest/rss

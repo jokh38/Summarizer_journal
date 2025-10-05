@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Data and Output
+data/progress.json
+data/paper_progress.json
+data/*.json.bak
+data/*.json.tmp
+data/*.json.*
+output/
+*.html
+*.md
+!README.md
+!Refactorplan.md
+!Dev_plan.md
+!IMPROVEMENTS_SUMMARY.md
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp/

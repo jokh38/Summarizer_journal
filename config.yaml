@@ -1,0 +1,52 @@
+# 기본 설정 파일
+output_format: html  # 기본 출력 형식 (html, md)
+output_dir: output
+log_dir: logs
+log_level: INFO
+platform: auto
+
+translator:
+  provider: ollama
+  timeout: 60
+  max_retries: 3
+  retry_delay: 2
+  fallback_provider: null
+  ollama:
+    api_url: http://localhost:11434/api/generate
+    model: exaone3.5:7.8b
+    num_ctx: 4096
+    temperature: 0.6
+    num_predict: 2048
+
+journals:
+  list_file: journal_list.txt
+  request_delay: 1
+  timeout: 30
+  user_agent: PaperSummarizer/1.0
+  max_papers_per_journal: 50
+  extractors:
+    meddos.org:
+      selector: div.abstract
+      type: class
+    physicamedica.com:
+      selector: div.abstract
+      type: class
+    wiley.com:
+      selector: div.abstract-content
+      type: class
+    redjournal.org:
+      selector: div.abstractSection
+      type: class
+    ro-journal.com:
+      selector: div#abstract
+      type: id
+
+progress:
+  file_path: data/progress.json
+  backup_count: 5
+  retention_days: 90
+
+keywords:
+  enabled: true
+  max_count: 5
+  custom_terms: []

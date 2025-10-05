@@ -1,0 +1,16 @@
+# Journal Paper Summarizer - Python Dependencies
+
+# Core dependencies
+feedparser==6.0.11          # RSS feed parsing
+requests==2.32.3            # HTTP requests
+beautifulsoup4==4.12.3      # HTML parsing
+lxml==5.3.0                 # XML/HTML parser (faster than html.parser)
+PyYAML==6.0.2               # YAML configuration file parsing
+
+# Optional: Environment variable management
+python-dotenv==1.0.1        # Load environment variables from .env file
+
+# Development dependencies (optional)
+# pytest==8.3.2             # Testing framework
+# pytest-cov==5.0.0         # Test coverage
+# mypy==1.11.2              # Static type checking
